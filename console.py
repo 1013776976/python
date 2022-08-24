@@ -23,9 +23,9 @@ root['bg'] = 'white'
 def a():
     os.system(r"start D:\object")
 def b():
-    os.system(r" taskkill /f /t /im msedge.exe")
-def c():
     webbrowser.open('https://weibo.com/')
+def c():
+    os.system(r" taskkill /f /t /im msedge.exe")
 
 
 #button
